@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className='w-[90%] mx-auto px-4 py-6 flex flex-col items-start justify-start border border-gray-300 rounded-xl
         gap-4 mt-5 bg-[#f5f5f8]'>
             <div className='w-full flex flex-row justify-start items-center gap-4 text-[#33a34d]'>
-                <div className='font-semibold'>DOWNLOAD APP</div>
+                <div className='font-semibold text-gray-800'>DOWNLOAD APP</div>
                 <div className='text-sm'>1 crore + downloads</div>
             </div>
             <div className='w-full flex flex-row justify-start items-center gap-4 '>
