@@ -10,7 +10,7 @@ const AccordianEleLvl1 = ({parentName,childList, link, depth, childrens}) => {
         <div className='flex flex-col items-start justify-start w-full'>
 
             {depth ==0 && <a href={link}className='py-4 border-b border-gray-200 w-full text-base px-5 flex 
-            flex-row items-center justify-between text-[#33a34d]'>{parentName}</a>}
+            flex-row items-center justify-between text-gray-700 font-semibold'>{parentName}</a>}
 
             {depth==1 && 
             <div className='w-full'>
@@ -25,7 +25,7 @@ const AccordianEleLvl1 = ({parentName,childList, link, depth, childrens}) => {
                     return !prev
                 }))
             }}>
-                <div className='text-[#33a34d]'>{parentName}</div>
+                <div className='text-gray-700 font-semibold'>{parentName}</div>
                 {!show?<div><FaAngleDown className='text-gray-400' /></div>:
                 <div><FaAngleUp className='text-gray-400' /></div>}
             </div>}

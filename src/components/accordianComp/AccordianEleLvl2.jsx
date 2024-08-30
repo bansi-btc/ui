@@ -13,7 +13,7 @@ const AccordianEleLvl2 = ({name,childrens}) => {
                     return !prev
                 }))
             }}>
-                <div className='text-[#33a34d]'>{name}</div>
+                <div className='text-gray-600 font-semibold'>{name}</div>
                 {!show?<div><FaAngleDown className='text-gray-400' /></div>:
                 <div><FaAngleUp className='text-gray-400' /></div>}
             </div>
