@@ -2,7 +2,7 @@ import React from 'react'
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { IoIosSearch } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
-import logo from "../assets/IndMoney.avif"
+import logo from "../assets/indMoney.avif"
 
 
 const Navbar = () => {
